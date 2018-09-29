@@ -1,7 +1,5 @@
 package com.dong.patterns.factorymethod;
 
-import java.io.File;
-
 /**
  * 客户端测试代码
  * 
@@ -21,7 +19,8 @@ public class Client {
         // 使用配置文件
         LoggerFactory factory;
         Logger logger;
-        factory = (LoggerFactory) XMLUtil.getBean();
+        factory =  (LoggerFactory) XMLUtil.getBean();
+        
 
         /*
          * try {

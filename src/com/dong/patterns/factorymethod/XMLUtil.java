@@ -21,6 +21,8 @@ public class XMLUtil {
 			
 			Document doc;
 			doc = builder.parse(new File("src\\com\\dong\\patterns\\factorymethod\\config.xml"));
+			// /Design-patterns/src/com/dong/patterns/factorymethod/config.xml
+			// src\\com\\dong\\patterns\\factorymethod\\config.xml
 			
 			NodeList nl = doc.getElementsByTagName("className");
 			Node classNode = nl.item(0).getFirstChild();
