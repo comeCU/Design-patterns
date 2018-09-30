@@ -1,9 +1,12 @@
 package com.dong.patterns.factorymethod;
 
 /**
- * 客户端测试代码
  * 
- * @author Administrator
+ * @ClassName: Client 
+ * @Description: 
+ * @author: dong
+ * @date: 2018年9月30日 上午10:05:27 
+ * @keyword: 
  *
  */
 public class Client {
