@@ -1,4 +1,4 @@
 <?xml version = "1.0"?>
 <config>
-    <className>com.dong.patterns.factorymethod.FileLoggerFactory</className>
+    <className>com.dong.patterns.creational.factorymethod.FileLoggerFactory</className>
 </config>

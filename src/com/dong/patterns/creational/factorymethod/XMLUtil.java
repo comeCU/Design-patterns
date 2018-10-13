@@ -20,7 +20,7 @@ public class XMLUtil {
 			DocumentBuilder builder = dFactory.newDocumentBuilder();
 			
 			Document doc;
-			doc = builder.parse(new File("src\\com\\dong\\patterns\\factorymethod\\config.xml"));
+			doc = builder.parse(new File("src\\com\\dong\\patterns\\creational\\factorymethod\\config.xml"));
 			// /Design-patterns/src/com/dong/patterns/factorymethod/config.xml
 			// src\\com\\dong\\patterns\\factorymethod\\config.xml
 			

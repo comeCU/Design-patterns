@@ -20,7 +20,7 @@ public class XMLUtil {
 			DocumentBuilder builder = dFactory.newDocumentBuilder();
 			
 			Document doc;
-			doc = builder.parse(new File("D:\\Users\\Administrator\\Documents\\eclipse_for_javaWeb_workspace\\Design-patterns\\src\\com\\dong\\patterns\\simplefactory\\config.xml"));
+			doc = builder.parse(new File("D:\\Users\\Administrator\\Documents\\eclipse_for_javaWeb_workspace\\Design-patterns\\src\\com\\dong\\patterns\\creational\\simplefactory\\config.xml"));
 			// ¾ø¶ÔÂ·¾¶
 			
 			NodeList nl = doc.getElementsByTagName("chartType");

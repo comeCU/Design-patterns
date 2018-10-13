@@ -24,13 +24,13 @@ public class XMLUtil {
 			DocumentBuilder builder = dFactory.newDocumentBuilder();
 			
 			Document doc;
-			doc = builder.parse(new File("src\\com\\dong\\patterns\\builder\\config.xml"));
+			doc = builder.parse(new File("src\\com\\dong\\patterns\\creational\\builder\\config.xml"));
 			// /Design-patterns/src/com/dong/patterns/factorymethod/config.xml
 			// src\\com\\dong\\patterns\\factorymethod\\config.xml
 			
 			NodeList nl = doc.getElementsByTagName("className");
 			Node classNode = nl.item(0).getFirstChild();
-			String cName = "com.dong.patterns.builder." + classNode.getNodeValue().trim();   // 拼接类路径
+			String cName = "com.dong.patterns.creational.builder." + classNode.getNodeValue().trim();   // 拼接类路径
 			
 			// 通过类名生成实例对象并将其返回
 			Class c = Class.forName(cName);
