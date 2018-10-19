@@ -1,0 +1,7 @@
+<?xml version = "1.0"?>
+<config>
+    <!-- Image格式实现类 -->
+    <className>PNGImage</className>
+    <!-- 操作系统接口 -->
+    <className>WindowsImp</className>
+</config>
